@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wardrobe</string>
+
+    <string name="tab_all">衣橱</string>
+    <string name="tab_collect">搭配</string>
+    <string name="tab_set">设置</string>
+
+    <string name="about">衣橱小管家app\n版本V 1.0\n开发者LYS</string>
+</resources>
