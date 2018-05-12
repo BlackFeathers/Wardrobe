@@ -1,7 +1,9 @@
 package com.example.li.wardrobe;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -28,6 +30,10 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
 
     private MyFragmentPageAdapter mAdapter;
 
+    //数据库
+    //private MyDBHelper myDBHelper;
+    //private Context mContext;
+
     //代表页面的常量
     public static final int PAGE_ONE = 0;
     public static final int PAGE_TWO = 1;
@@ -40,6 +46,9 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         mAdapter = new MyFragmentPageAdapter(getSupportFragmentManager());
         bindViews();
         rb_all.setChecked(true);
+
+        //mContext = MainActivity.this;
+        //myDBHelper = new MyDBHelper(mContext);
     }
 
     private void bindViews() {

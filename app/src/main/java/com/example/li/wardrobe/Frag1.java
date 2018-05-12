@@ -32,6 +32,7 @@ public class Frag1 extends android.support.v4.app.Fragment {
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 startActivity(new Intent(getActivity(),Frag1_1_1.class));
             }
         });

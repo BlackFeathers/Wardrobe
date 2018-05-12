@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="first">
+        <item>帽子</item>
+        <item>上装</item>
+        <item>外套</item>
+        <item>裙子</item>
+        <item>裤子</item>
+        <item>鞋子</item>
+        <item>内衣睡衣</item>
+        <item>包</item>
+        <item>首饰</item>
+        <item>美妆</item>
+        <item>其他</item>
+    </string-array>
+</resources>

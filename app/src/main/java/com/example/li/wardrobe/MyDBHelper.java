@@ -21,9 +21,8 @@ public class MyDBHelper extends SQLiteOpenHelper {
 
     private Context mContext;
 
-    public MyDBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory,
-                      int version){
-        super(context,"wardrobe.dbdb",null,1);
+    public MyDBHelper(Context context){
+        super(context,"wardrobe.db",null,1);
         mContext = context;
     }
 
@@ -35,6 +34,5 @@ public class MyDBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
     }
 }
